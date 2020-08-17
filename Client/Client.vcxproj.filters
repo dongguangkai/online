@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{b27f9676-d53c-4d93-bc39-af9ff38a7f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{51f9fe6d-7984-4121-b53f-f2eb01def2d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="networkIO.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="businesslogic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="networkIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="businesslogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

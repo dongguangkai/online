@@ -1,0 +1,8 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.141.128'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  client.c
+  Linking objects
+  Client.vcxproj -> D:\Linux\Coding\在线编译系统1\Client\bin\x86\Debug\Client.out

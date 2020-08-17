@@ -1,0 +1,1 @@
+g++ -o "/root/projects/Server/bin/x86/Debug/Server.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/Server/obj/x86/Debug/serbusiness.o /root/projects/Server/obj/x86/Debug/sernetwork.o /root/projects/Server/obj/x86/Debug/server.o

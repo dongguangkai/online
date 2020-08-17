@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{f523aa5c-27e1-4669-b20b-35542647c852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{4e5c4b33-1ac6-4860-9534-4482f895dac1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="server.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sernetwork.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="serbusiness.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sernetwork.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="serbusiness.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

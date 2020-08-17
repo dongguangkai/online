@@ -1,0 +1,34 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.141.128'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  serbusiness.c
+D:\Linux\Coding\在线编译系统1\Server\serbusiness.c(51,3): warning : implicit declaration of function ‘wait’ [-Wimplicit-function-declaration]
+D:\Linux\Coding\在线编译系统1\Server\serbusiness.c(51,3): warning :    wait(NULL);
+D:\Linux\Coding\在线编译系统1\Server\serbusiness.c(51,3): warning :    ^
+D:\Linux\Coding\在线编译系统1\Server\serbusiness.c(67,4): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\Linux\Coding\在线编译系统1\Server\serbusiness.c(67,4): warning :     write(fd, buff, n);
+D:\Linux\Coding\在线编译系统1\Server\serbusiness.c(67,4): warning :     ^
+  sernetwork.c
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(29,2): warning : conversion to ‘uint16_t’ from ‘short int’ may change the sign of the result [-Wsign-conversion]
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(29,2): warning :   ser_addr.sin_port = htons(port);
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(29,2): warning :   ^
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(45,2): warning : conversion to ‘uint32_t’ from ‘short int’ may change the sign of the result [-Wsign-conversion]
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(45,2): warning :   ev.events = event;
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(45,2): warning :   ^
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(64,2): warning : overflow in implicit constant conversion [-Woverflow]
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(64,2): warning :   InsertFdToEpoll(epfd, c, EPOLLIN | EPOLLRDHUP | EPOLLET);
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(64,2): warning :   ^
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(85,3): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(85,3): warning :    int n = recv(fd, buff, size, 0);
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(85,3): warning :    ^
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(88,3): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(88,3): warning :    write(filefd, buff, n);
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(88,3): warning :    ^
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(121,4): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(121,4): warning :     send(fd, buff, n, 0);
+D:\Linux\Coding\在线编译系统1\Server\sernetwork.c(121,4): warning :     ^
+  server.c
+  Linking objects
+  Server.vcxproj -> D:\Linux\Coding\在线编译系统1\Server\bin\x86\Debug\Server.out
